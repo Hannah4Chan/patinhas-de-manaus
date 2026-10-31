@@ -523,8 +523,8 @@ As quatro requisições têm um requisito funcional correspondente. Também fora
 - **Comunicação:** 1 diagrama de sequência, 4 requisições HTTP (`GET`, `POST`, `PUT`, `DELETE`) com URL, status e JSON, incluindo erros `409`.
 - **HTTPS:** dados sensíveis e garantias do TLS explicados.
 - **Rastreabilidade:** todos os RNFs ligados a decisões/componentes e todas as requisições ligadas a RFs.
-- **Formato:** todo o conteúdo está neste `README.md`, com diagramas Mermaid no próprio arquivo, pronto para ser colocado em um repositório público no GitHub.
-- **Autoria:** o trabalho será individual, conforme orientação do professor. Para concluir a entrega, o repositório deve ser publicado como público no GitHub, ter pelo menos um commit e ter seu link enviado ao professor.
+- **Formato:** todo o conteúdo está neste `README.md`, com diagramas Mermaid no próprio arquivo, publicado no repositório público do GitHub.
+- **Autoria:** o trabalho é individual, conforme orientação do professor. O repositório já é público e possui commit na branch `main`; falta apenas enviar o link ao professor.
 
 **Nota:** o pet shop é fictício, assim como os dados usados nos exemplos. Este trabalho apresenta o planejamento do sistema, sem implementação ou testes práticos.
 
@@ -559,9 +559,11 @@ patinhas-de-manaus/
 └── .gitignore         # Arquivos locais e segredos fora do Git
 ```
 
-**Essas pastas ainda não existem.** Nesta primeira entrega, o repositório terá somente o `README.md`, de acordo com o formato solicitado pelo professor. Os exemplos HTTP do documento continuarão servindo como contratos de referência para o desenvolvimento.
+**Essas pastas ainda não existem.** Nesta primeira entrega, o repositório contém somente o `README.md`, de acordo com o formato solicitado pelo professor. Os exemplos HTTP do documento continuarão servindo como contratos de referência para o desenvolvimento.
 
 ### 4.3. Organização do desenvolvimento no GitHub
+
+As etapas futuras estão organizadas nas [Issues de implementação](https://github.com/Hannah4Chan/patinhas-de-manaus/issues). Elas são apenas um planejamento para quando o professor solicitar o desenvolvimento do sistema.
 
 - Usar **Issues** para acompanhar funcionalidades, bugs e tarefas de testes, citando códigos como RF06 e RNF04 nos títulos ou descrições.
 - Manter a branch `main` como base estável. Implementar novas funcionalidades em branches curtas, como `feat/agendamentos`, e integrar por pull request quando houver código.
