@@ -320,7 +320,7 @@ sequenceDiagram
     Web->>API: POST /api/agendamentos (HTTPS/JSON + cookie + CSRF)
     API->>BD: Validar sessão, tutor e dados da reserva
     BD-->>API: Sessão e cadastros válidos
-    API->>BD: Iniciar transacao e verificar disponibilidade e profissional habilitado
+    API->>BD: Iniciar transação e verificar disponibilidade e profissional habilitado
     BD-->>API: Profissional elegível e preço vigente
     API->>BD: Inserir reserva e evento de notificação pendente
     alt Inserção aceita sem conflito
